@@ -6,7 +6,7 @@ end
 
 def segundo_metodo(x, y, &block)
   puts "Antes de ejecutar metodo"
-  metodo(&block)
+  metodo(x, y, &block)
   puts "Después de ejecutar metodo"
 end
 

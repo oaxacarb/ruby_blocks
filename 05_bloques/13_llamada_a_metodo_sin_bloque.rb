@@ -1,4 +1,4 @@
-def metodo(&mi_proc)
+def metodo
   yield(8)
 end
 metodo # sin pasar un bloque

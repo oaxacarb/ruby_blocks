@@ -1,6 +1,6 @@
-def metodo(&mi_proc)
+def metodo
   if block_given?
-    mi_proc.call(2)
+    yield(2)
   else
     ""
   end
