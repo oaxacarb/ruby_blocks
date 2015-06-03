@@ -1,5 +1,5 @@
-def metodo(&mi_proc)
-  mi_proc.call(2)
+def metodo
+  yield(8)
 end
 metodo # sin pasar un bloque
-# undefined method `call' for nil:NilClass (NoMethodError)
+# no block given (yield) (LocalJumpError)
