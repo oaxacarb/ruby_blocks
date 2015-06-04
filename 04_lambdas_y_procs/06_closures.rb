@@ -1,11 +1,11 @@
-def metodo(mi_lambda)
+def ejecuta_lambda(mi_lambda)
   a = 10
   mi_lambda.call
 end
 
 a = 20
 variable_lambda = -> { puts a }
-metodo(variable_lambda)
+ejecuta_lambda(variable_lambda)
 # 20
 # => nil
 

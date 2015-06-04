@@ -6,3 +6,11 @@ arreglo.each do |x|
 end
 puts y
 # 10
+
+# ejemplo común de este tipo de operaciones
+suma = 0
+arreglo.each do |x|
+  suma += x
+end
+puts suma
+# 65
